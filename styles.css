@@ -1,0 +1,216 @@
+:root{
+    --color-main:#BFA27E;
+    --color-black: #262626;
+    --color-darkMain: #736555;
+    --color-brown: #261F11;
+    --color-white: #FFFFFF;
+}
+@font-face {
+    font-family: 'logo';
+    src: url("./fontes/yogurt_extra/Yogurt\ Extra.otf");
+};
+@font-face {
+    font-family: 'script'; 
+    src: url("/fontes/black_jack/BLACKJAR.TTF") format("truetype"); 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+p{
+    font-size: 1rem;
+    
+}
+h1{
+    font-size: 3rem;
+    font-variant: small-caps;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+header{
+    background-color: var(--color-black);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    box-sizing: border-box;
+}
+table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+th{
+    font-weight: bold;
+    padding: 5px;
+}
+
+td{
+    border: solid 1px black;
+    padding: 5px;
+}
+
+tbody{
+    border: solid 1px black;
+}
+header img{
+    width: 75px;
+    height: 75px;
+}
+main{
+    display: flex;
+
+    padding-top:7% ;
+    width: 100%;
+    height: auto;
+    flex: 1;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    background-color: var(--color-black);
+    width: 100%;
+    color: var(--color-white);
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul{
+    width: 50%;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-main);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.col{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.categoria-fontes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    justify-content: center;
+}
+
+.logo{
+    font: normal 20px 'logo';
+}
+
+.glifo{
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+
+.glifo p{
+    font: "Mulish", sans-serif;
+}
+.glifo ul {
+
+    margin-left: 15px; /* Adiciona um recuo para os marcadores */
+}
+.glifo li{
+    text-align: start;
+    padding: 5px;
+}
+
+.anatomia-fontes{
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+.anatomia-fontes p{
+   font: "Crimson Text", serif;
+   display: flex;
+   justify-content: center;
+}
+.anatomia-fontes ul{
+    margin-left: 20px;
+}
+.anatomia-fontes li{
+    padding-left: 5px;
+    padding: 5px;
+    text-align: start;
+}
+.categoria-fontes li{
+    margin: 20px;
+}
+.tipografia-design{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.sections{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: 800;
+}
+
+.mulish{
+    font-family: "Mulish", sans-serif;
+    font: 400 normal;
+}
+
+.crimson-text {
+    font: 400 normal "Crimson Text", serif;
+  }
+  
+.source-code{
+    font-family: "Source Code Pro", monospace;
+}
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+}
